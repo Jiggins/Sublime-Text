@@ -1,0 +1,23 @@
+{
+	"working_dir": "$packages/User/",
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"cmd": ["sh", "Java.sh", "$file", "$file_base_name"],
+	"selector": "source.java",
+
+	"osx": 
+	{
+		// "cmd": ["sh", "Java.sh", "$file", "$file_base_name"]
+		"cmd": ["open", "$packages/User"]
+	},
+
+	"linux":
+	{
+		"cmd": ["sh", "Java.sh", "$file", "$file_base_name"]
+	},
+
+	"windows":
+	{
+		"cmd": ["Java.bat", "$file", "$file_base_name"]
+	}
+}
+ 
