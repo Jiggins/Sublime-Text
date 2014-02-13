@@ -6,13 +6,12 @@
 
 	"osx": 
 	{
-		// "cmd": ["sh", "Java.sh", "$file", "$file_base_name"]
-		"cmd": ["open", "$packages/User"]
+		"cmd": ["sh", "Java.sh", "$file", "$file_path", "$file_base_name"]
 	},
 
 	"linux":
 	{
-		"cmd": ["sh", "Java.sh", "$file", "$file_base_name"]
+		"cmd": ["sh", "Java.sh", "$file", "$file_path", "$file_base_name"]
 	},
 
 	"windows":
