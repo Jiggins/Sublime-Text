@@ -1,10 +1,10 @@
 Sublime-Text
 ============
-
 Various bits of code to customise Sublime Text
 
 Installation
 ============
+Download the zip from this link  -->
 
 Copy all files from the package you want (not the folder) to install into
 
