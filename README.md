@@ -4,7 +4,7 @@ Various bits of code to customise Sublime Text
 
 Installation
 ============
-Download the zip from this link  -->
+Download the zip from this link: https://github.com/JigginsGit/Sublime-Text/archive/master.zip
 
 Copy all files from the package you want (not the folder) to install into
 
