@@ -1,10 +1,12 @@
 file="$1"
 path="$2"
 
+# Fix for spaces.
 file="${file// /*}"
 path="${path// /*}"
 
-javac $file
-
 cd $path
+
+javac $file || { exit 1; }
+
 java $3
