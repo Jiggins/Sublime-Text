@@ -5,8 +5,12 @@ path="$2"
 file="${file// /*}"
 path="${path// /*}"
 
+pwd
+
 cd $path
 
-g++ $file -o compiled/$3 || { exit 1; }
+pwd
 
-./compiled/$3
+# g++ $file -o compiled/$3 || { exit 1; }
+
+# ./compiled/$3

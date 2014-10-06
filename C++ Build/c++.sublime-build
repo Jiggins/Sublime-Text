@@ -1,0 +1,6 @@
+{
+	"name": "CS264 C++",
+	"working_dir": "$packages/User/",
+	"cmd": ["sh", "C++.sh", "$file", "$file_path", "$file_base_name"],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.c++"}
