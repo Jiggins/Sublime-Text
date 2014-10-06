@@ -2,8 +2,8 @@ file="$1"
 path="$2"
 
 # Fix for spaces.
-file="${file// /*}"
-path="${path// /*}"
+# file="${file// /*}" # Broken on Ubuntu
+# path="${path// /*}"
 
 cd $path
 
